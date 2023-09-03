@@ -1,0 +1,23 @@
+[
+  {
+    "transaction_id": "12345",
+    "timestamp": "2023-08-13T10:30:00Z",
+    "amount": 100.50,
+    "sender": "Alice",
+    "receiver": "Bob"
+  },
+  {
+    "transaction_id": "67890",
+    "timestamp": "2023-08-13T11:45:00Z",
+    "amount": 50.25,
+    "sender": "Eve",
+    "receiver": "Mallory"
+  },
+  {
+    "transaction_id": "98765",
+    "timestamp": "2023-08-13T14:20:00Z",
+    "amount": 300.00,
+    "sender": "Charlie",
+    "receiver": "David"
+  }
+]

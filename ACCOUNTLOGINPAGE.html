@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="script.cjs"></script>
+    <title>Account Logged In Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap">
+    <style>
+        body {
+            color: #1a1b1f;
+            font-family: Montserrat, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            position: absolute;
+            top: 40px;
+            left: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-image {
+            width: 50px;
+            /* Adjust the size of the image as needed */
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .logo-text {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 9px;
+            color: #333;
+
+            /* Adjust the color to match the menu buttons */
+        }
+
+        .button-container {
+            position: absolute;
+            top: 40px;
+            right: 20px;
+        }
+
+        .button {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 20px;
+            padding: 10px 20px;
+            margin-left: 5px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            color: #333;
+            text-decoration: none;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: transparent;
+            color: #000;
+        }
+    </style>
+    <script>
+        function makeTextBold() {
+            document.body.classList.toggle('bold-text');
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <img src="abstract3.png" alt="Logo" class="logo-image">
+        <div class="logo-text">A17 BLOCKCHAIN</div>
+    </div>
+
+    <div
+        style="position: absolute; top: 20vh; left: 50%; transform: translateX(-50%); font-size: 18px; font-weight: 100;">
+        Account</div>
+
+    <div
+        style="position: absolute; top: 50vh; left: 50%; transform: translateX(-50%); font-size: 16px; font-weight: 300;">
+        ADDRESS: <span id="walletAddressText">Loading...</span>
+    </div>
+
+
+
+
+    <div class="button-container">
+        <a href="retrieval.html" class="button" onclick="makeTextBold()">RETRIEVAL</a>
+        <a href="networks.html" class="button" onclick="makeTextBold()">NETWORKS</a>
+        <script src="BLOCKCHAINJS.cjs"></script>
+
+        <a href="ACCOUNTLOGINPAGE.html" class="button" onclick="makeTextBold()">ACCOUNT</a>
+        <script src="BLOCKCHAINJS.cjs"></script>
+
+        <button id="logout" class="button">LOGOUT</button>
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bitcoinjs-lib/5.2.0/bitcoinjs.min.js"></script>
+    <script>
+        function generate_wallet_address() {
+            console.log("hello");
+            // Here you can add the logic to generate the wallet address and display it in the 'wallet-address' element.
+        }
+        fetch('wallet.json')
+            .then(response => response.json())
+            .then(data => {
+                var walletAddress = data.wallet_address;
+                document.getElementById('walletAddressText').textContent = walletAddress;
+            })
+            .catch(error => {
+                console.error('Error fetching wallet data:', error);
+            });
+    </script>
+</body>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyAhEh_wc8OmZb-AJiZIBQnyEE6DqXNv4qg",
+        authDomain: "a1block.firebaseapp.com",
+        databaseURL: "https://a1block-default-rtdb.firebaseio.com",
+        projectId: "a1block",
+        storageBucket: "a1block.appspot.com",
+        messagingSenderId: "516130753852",
+        appId: "1:516130753852:web:7e75e9317bc198bf6ba239",
+        measurementId: "G-W22KVR6JZ1"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const auth = getAuth(app);
+
+    //console.log(app);
+
+
+
+
+    document.getElementById("logout").addEventListener("click", function () {
+        signOut(auth).then(() => {
+            // Sign-out successful.
+            console.log('Sign-out successful.');
+            alert('Sign-out successful.');
+            window.location.href = "wallet.html";
+            document.getElementById('logout').style.display = 'none';
+        }).catch((error) => {
+            // An error happened.
+            console.log('An error happened.');
+        });
+    });
+//----- End
+
+</script>
+
+
+</html>

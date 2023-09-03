@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap">
+    <style>
+        body {
+            color: #1a1b1f;
+            font-family: Montserrat, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            position: absolute;
+            top: 40px;
+            left: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-image {
+            width: 50px;
+            /* Adjust the size of the image as needed */
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .logo-text {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 9px;
+            color: #333;
+            /* Adjust the color to match the menu buttons */
+        }
+
+        .button-container {
+            position: absolute;
+            top: 40px;
+            right: 20px;
+        }
+
+        .button {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 20px;
+            padding: 10px 20px;
+            margin-left: 5px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            color: rgb(51, 51, 51);
+            text-decoration: none;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: text-decoration 0.3s ease;
+        }
+
+        .button:hover {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .button:hover .button-line {
+            width: 100%;
+        }
+
+        .login-container {
+            position: absolute;
+            top: 140px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .input-label {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            color: rgb(58, 58, 58);
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .input-field {
+            border: none;
+            border-bottom: 1px solid #000000;
+            outline: none;
+            background-color: transparent;
+            width: 200px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 10px;
+            font-weight: 600;
+            line-height: 28px;
+            color: #000000;
+
+        }
+
+        .input-field::placeholder {
+            color: #ccc;
+        }
+
+        .line {
+            width: 0;
+            height: 2px;
+            background-color: #fe000000;
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            transition: width 0.3s ease;
+        }
+
+        .input-field:focus+.line {
+            width: 100%;
+        }
+
+        .action-button-container {
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            align-items: center;
+        }
+
+        .action-button {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 20px;
+            padding: 10px 20px;
+            margin-left: 5px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            color: #000000;
+            text-decoration: none;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: text-decoration 0.3s ease;
+        }
+
+        .action-button:hover {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        .action-button:hover .button-line {
+            width: 0;
+        }
+
+        .button-line {
+            width: 100%;
+            height: 2px;
+            background-color: #ccc;
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            transition: width 0.3s ease;
+        }
+
+
+
+
+
+        .action-button-container button {
+            font-family: 'Montserrat', sans-serif;
+            background-color: transparent;
+            border: 1px solid #00000000;
+
+            cursor: pointer;
+        }
+
+        .file-list {
+            margin-top: 10px;
+        }
+
+        .file-list div {
+            margin: 5px 0;
+        }
+
+
+
+        /* Additional styling for the file list */
+        .file-list {
+            margin-top: 10px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 12px;
+        }
+
+        .right-align {
+            text-align: right;
+        }
+    </style>
+    <script>
+        function makeTextBold() {
+            document.body.classList.toggle('bold-text');
+        }
+
+        function maskPassword(event) {
+            const passwordInput = document.getElementById('password');
+            const maskedValue = passwordInput.value.replace(/./g, '¥');
+            passwordInput.setAttribute('data-masked-value', maskedValue);
+        }
+
+        function unmaskPassword(event) {
+            const passwordInput = document.getElementById('password');
+            const unmaskedValue = passwordInput.getAttribute('data-masked-value');
+            passwordInput.value = unmaskedValue;
+        }
+        function chooseFile() {
+            const fileInput = document.createElement("input");
+            fileInput.type = "file";
+            fileInput.multiple = true;
+            fileInput.style.display = "none";
+            fileInput.addEventListener("change", displaySelectedFiles);
+            document.body.appendChild(fileInput);
+            fileInput.click();
+        }
+
+        function displaySelectedFiles() {
+            const selectedFiles = this.files;
+            const selectedFilesDiv = document.getElementById("selected-files");
+            const fileCount = selectedFiles.length;
+
+            const selectedFileCountSpan = document.getElementById("selected-file-count");
+            selectedFileCountSpan.textContent = fileCount;
+
+            selectedFilesDiv.textContent = ""; // Clear the content
+
+            // for (const file of selectedFiles) {
+            //   const fileName = document.createElement("div");
+            //   fileName.textContent = file.name;
+            //    selectedFilesDiv.appendChild(fileName);
+            //   }
+            for (const file of selectedFiles) {
+                console.log(file.name);
+
+                // const downloadLink = document.createElement("a");
+                //downloadLink.href = URL.createObjectURL(file);
+                // downloadLink.download = file.name;
+                // downloadLink.textContent = file.name;
+                //  selectedFilesDiv.appendChild(downloadLink);
+                //  selectedFilesDiv.appendChild(document.createElement("br"));
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <img src="abstract3.png" alt="Logo" class="logo-image">
+        <div class="logo-text">A17 BLOCKCHAIN</div>
+    </div>
+
+    <div class="button-container">
+        <a href="networks.html" class="button" onclick="makeTextBold()">RETRIEVAL</a>
+        <a href="networks.html" class="button" onclick="makeTextBold()">NETWORKS</a>
+        <a href="ACCOUNTLOGINPAGE.html" class="button" onclick="makeTextBold()">ACCOUNT</a>
+        <button id="logout" class="button" onclick="makeTextBold()">LOGOUT</button>
+    </div>
+
+    <div class="login-container">
+        <div class="input-container">
+            <label class="input-label" for="email">SENTINEL ADDRESS:</label>
+            <input type="text" id="email" class="input-field" placeholder="$%$!()^">
+            <div class="line"></div>
+        </div>
+
+        <div class="input-container">
+            <label class="input-label" for="password">MEMO:</label>
+            <input type="password" id="password" class="input-field" placeholder="|{)%^$%}"
+                oninput="maskPassword(event)" onfocus="unmaskPassword(event)" onblur="maskPassword(event)" />
+            <div class="line"></div>
+        </div>
+
+        <div class="input-container">
+            <label class="input-label" for="firstName">FIRST NAME:</label>
+            <input type="text" id="firstName" class="input-field" placeholder=")(^*^%$)">
+            <div class="line"></div>
+        </div>
+
+        <div class="file-list-container">
+            <label class="input-label">SELECTED FILES: <span id="selected-file-count">0</span></label>
+            <div id="selected-files" class="file-list"></div>
+        </div>
+
+        <div class="action-button-container">
+            <button onclick="chooseFile()" style="font-family: 'Montserrat', sans-serif;">CHOOSE FILE</button>
+
+
+
+
+            <div class="action-button-container">
+
+                <button id="runButton" class="action-button"
+                    onmouseover="document.querySelector('.button-line').style.width = '0'"
+                    onmouseout="document.querySelector('.button-line').style.width = '100%'">COMPLETE
+                    TRANSACTION</button>
+
+            </div>
+            <script>
+                document.getElementById('runButton').addEventListener('click', () => {
+                    fetch('http://localhost:4000/run-node-script')
+                        .then(response => response.text())
+                        .then(result => console.log(result))
+                        .catch(error => console.error('Error:', error));
+                });
+            </script>
+            <script>
+                // Declare the walletstore variable
+                let walletstore;
+
+                // Get the input element
+                const inputField = document.getElementById('email');
+
+                // Get the button element
+                const storeButton = document.getElementById('runButton');
+
+                // Add a click event listener to the button
+                storeButton.addEventListener('click', () => {
+                    // Store the input value in the walletstore variable
+                    walletstore = inputField.value;
+
+                    // Optionally, you can log the stored value for verification
+                    console.log('Stored value:', walletstore);
+                });
+            </script>
+
+</body>
+
+
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyAhEh_wc8OmZb-AJiZIBQnyEE6DqXNv4qg",
+        authDomain: "a1block.firebaseapp.com",
+        databaseURL: "https://a1block-default-rtdb.firebaseio.com",
+        projectId: "a1block",
+        storageBucket: "a1block.appspot.com",
+        messagingSenderId: "516130753852",
+        appId: "1:516130753852:web:7e75e9317bc198bf6ba239",
+        measurementId: "G-W22KVR6JZ1"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const auth = getAuth(app);
+
+    //console.log(app);
+
+
+    //----- New Registration code start	  
+    document.getElementById("register").addEventListener("click", function () {
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        //For new registration
+        createUserWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                // Signed in 
+                const user = userCredential.user;
+                console.log(user);
+                alert("Registration success");
+                window.location.href = "wallet.html";
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                // ..
+                console.log(errorMessage);
+                alert(error);
+            });
+    });
+    //----- End
+
+    //----- Login code start	  
+    document.getElementById("login").addEventListener("click", function () {
+        var email = document.getElementById("login_email").value;
+        var password = document.getElementById("login_password").value;
+
+        signInWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                // Signed in 
+                const user = userCredential.user;
+                console.log(user);
+                alert(user.email + " Login successfully!!!");
+                document.getElementById('logout').style.display = 'block';
+                // ...
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                console.log(errorMessage);
+                alert(errorMessage);
+            });
+    });
+    //----- End
+
+    //----- Logout code start	  
+    document.getElementById("logout").addEventListener("click", function () {
+        signOut(auth).then(() => {
+            // Sign-out successful.
+            console.log('Sign-out successful.');
+            alert('Sign-out successful.');
+            document.getElementById('logout').style.display = 'none';
+        }).catch((error) => {
+            // An error happened.
+            console.log('An error happened.');
+        });
+    });
+	  //----- End
+</script>
+
+</html>

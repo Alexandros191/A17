@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap">
+    <style>
+        body {
+            color: #1a1b1f;
+            font-family: Montserrat, sans-serif;
+            font-size: 16px;
+            font-weight: 200;
+            line-height: 28px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .transaction-details {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            margin-top: 200px;
+        }
+
+        .transaction-details hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 10px 0;
+        }
+
+        .header {
+            position: absolute;
+            top: 40px;
+            left: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-image {
+            width: 50px;
+            /* Adjust the size of the image as needed */
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .logo-text {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 9px;
+            color: #333;
+
+            /* Adjust the color to match the menu buttons */
+        }
+
+        .button-container {
+            position: absolute;
+            top: 40px;
+            right: 20px;
+        }
+
+        .button {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 20px;
+            padding: 10px 20px;
+            margin-left: 5px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            color: #333;
+            text-decoration: none;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: transparent;
+            color: #000;
+        }
+
+        /* Define styles for the file link */
+        .file-link {
+            color: #d55003;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function makeTextBold() {
+            document.body.classList.toggle('bold-text');
+        }
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <img src="abstract3.png" alt="Logo" class="logo-image">
+        <div class="logo-text">A17 BLOCKCHAIN</div>
+    </div>
+
+    <div class="button-container">
+        <a href="retrieval.html" class="button" onclick="makeTextBold()">RETRIEVAL</a>
+        <a href="networks.html" class="button" onclick="makeTextBold()">NETWORKS</a>
+        <a href="ACCOUNTLOGINPAGE.html" class="button" onclick="makeTextBold()">ACCOUNT</a>
+        
+        <button id="logout" class="button" onclick="makeTextBold()">LOGOUT</button>
+
+        
+    </div>
+
+    <div class="transaction-details">
+        <h2>Last Received Data (2 minutes ago)</h2> <!-- Added title here -->
+        <p>Sender Address: 2a62c5e1802addf4371789af878beb13d6202d5700f9f0633163e2e0084a90cb</p>
+        <hr>
+        <p>Nicholas</p>
+        <hr>
+        <p>Recipient Address: 85e22d1ef1542973848a0d5bfcf022dbcdc2749c9767dd999c53647b02f9f8e5 </p>
+        <hr>
+        <p>Memo: PRIVATE CONTRACT</p>
+        <hr>
+        <!-- Make the file name clickable and downloadable -->
+        <p><a href="PrivateContract 10.pdf" class="file-link" target="_blank" download>PrivateContract10.pdf</a></p>
+    </div>
+</body>
+
+</html>

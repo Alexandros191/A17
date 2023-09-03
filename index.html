@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Run Node.js Script</title>
+</head>
+
+<body>
+    <h1>Run Node.js Script</h1>
+    <button id="runButton">Run Script</button>
+
+    <script>
+        document.getElementById('runButton').addEventListener('click', () => {
+            fetch('http://localhost:4000/run-node-script')
+                .then(response => response.text())
+                .then(result => console.log(result))
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+
+</html>

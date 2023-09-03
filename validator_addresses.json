@@ -1,0 +1,721 @@
+{
+  "groupA": [
+    {
+      "index": 51,
+      "publicKey": "046dba9118aa8e2e90528abbb10d7c200be0e16474fa6abfc33c971b54b08aa10ab6441ea797f48811b88602d6e9b2a5246a61765ae6ffa7daf04200a3506419df",
+      "privateKey": "afb4da5ec6394253e0be1cccd78b588b49b9471cc2ef8716ea8144d2d9a747d5",
+      "calculatedValue": 0.02490627318028152,
+      "weight": 1
+    },
+    {
+      "index": 50,
+      "publicKey": "04fe9cb659a4a5ab821d9e7492ddef0db733436bcefb2f00f38f54b79553ed4455381cc8ca8fe34d9d9388016008432bca4baff1e4eec6fa649cf46617dd4ea56b",
+      "privateKey": "deac0294de0d3fe287827658b917a032a515c952e51f32f6a323e2e9cfd6ccca",
+      "calculatedValue": 0.024658451621449078,
+      "weight": 2
+    },
+    {
+      "index": 49,
+      "publicKey": "045785e20d97c3c9d515ff1bc4b4a79f197925267660057010d11ce0a97f3185722aa8c3e2e52f5e67bf7383576e79ca13e7967e999224678953f4de4f35b8aa4a",
+      "privateKey": "1b1c87cf3eef00d4bb4c83f9f1d825589356378eaf041e430424fff2b9a04dae",
+      "calculatedValue": 0.02441309592832756,
+      "weight": 3
+    },
+    {
+      "index": 48,
+      "publicKey": "042ee779f9e98ab906a55c0f3406d33db5005cdd86d695e4b26083165f365ba069ff15dae81209b674e0bde263856999eadda9910c8a8c7c473e96cec4b4d1fa21",
+      "privateKey": "8a229f3d8ab289b6ccab7598866421ad8e96db61d416d21d27f047a43fa22187",
+      "calculatedValue": 0.02417018156514319,
+      "weight": 4
+    },
+    {
+      "index": 47,
+      "publicKey": "04ed8a766f903476d5a9bef5be9565c279194b956c82178c974b3d53c541788462e48d0d2ed135d0504e8443cfa158e60ff38dead4aa4d5881382e33c1a091b9f4",
+      "privateKey": "1451c21d2bf478837a962a02eb47fa626164adc9c1cb8df7f77975c691ea3de7",
+      "calculatedValue": 0.023929684240257227,
+      "weight": 5
+    },
+    {
+      "index": 46,
+      "publicKey": "04e4ccda1e7a46046e49dfe366a7c5b9cc33efd62532dfefc4f46eb2a0946190d7a71c97b2ef7a57899ab93dae1a81aebac4c0ba25183f6698f621d3fd2c5c87d8",
+      "privateKey": "12666fa00bea037063c84f677b093f743911929e24972615bf40324e47d608c5",
+      "calculatedValue": 0.02369157990373675,
+      "weight": 6
+    },
+    {
+      "index": 45,
+      "publicKey": "04c341bc65279b2cb18bedd730abaa04c182a3528184f7b8bf54a33f8462c43bd94ca6213f8ce3d36e501f5c5ae148cad90524a2a1a1b3d8cdbc96c6358a477cc4",
+      "privateKey": "2cc8cceb7cf4a0f6b3d124daba9522e8dbfc0a64859c9689d784bf1916dbcb21",
+      "calculatedValue": 0.023455844744949706,
+      "weight": 7
+    },
+    {
+      "index": 44,
+      "publicKey": "04ad129f21570c1049ba7b3eb67f8c91a1c9df620cd135efbf40b62301de69dd57148a1e876d0cb9c707a6dd3a697da20567037eb8d3830236fe8fc661ce2d5270",
+      "privateKey": "dd4ff4b62fed8431e62b33877b60046c96b65cb751fee5b979a7c1702c5793bf",
+      "calculatedValue": 0.023222455190183747,
+      "weight": 8
+    },
+    {
+      "index": 43,
+      "publicKey": "043ff69d23bcbf3fe2fe47904b6ccf87d9c430b68eb7dff54a5e6823913bea2d12b1b51c21b9cef3bc7546a1578b3a551d05a5cb0bc12d6389169aafb4eb382af2",
+      "privateKey": "b56b08593b91c0f9fe0c0ab598b39d1103035cd5e516a1dafc7dcaf932d46476",
+      "calculatedValue": 0.022991387900288925,
+      "weight": 9
+    },
+    {
+      "index": 42,
+      "publicKey": "049954ead8b1c1bc59d076b56667ee6a321bd7b9aee9186794c16bc6a9523efb18375ac0a06997079e4b54b5634f98e0565ed92a3fecb8c859860c902595ee82e4",
+      "privateKey": "e4f8b4471039f4b4137be67e751e74ce3f536d173b5b6633c309cf86bf9376ea",
+      "calculatedValue": 0.022762619768343685,
+      "weight": 10
+    },
+    {
+      "index": 41,
+      "publicKey": "04f490c4d2ad02f218f886e8a15b9d076f8b782b78b9dc334493e654ad19100135f632ca48dff7c7badc7b708e1537e2260bf392778025f1d45f70ee878daecb5a",
+      "privateKey": "e92cfa1d1f6088fd513b1a8c833fe4ec566b8467f448ffdfb435a2c7092edc1c",
+      "calculatedValue": 0.02253612791734419,
+      "weight": 11
+    },
+    {
+      "index": 40,
+      "publicKey": "0481bd956c9df655665fb828e31df36bb9482365235396ad83fca2f234c6737d6c4edaeb7d79a24cc0a37876d2877ca920f187fd4fcc4f0c2f030b758b0a3fc460",
+      "privateKey": "f2cc504b43ea40daf3abce4a833b7e9dcc24dc3946a22c03ce7069f2e8ce5242",
+      "calculatedValue": 0.0223118896979166,
+      "weight": 12
+    },
+    {
+      "index": 39,
+      "publicKey": "042932afb4885af94cf59a1d18af81e1f33b565206fa27bcd82d991c086a66c49bda18847494bf3ee64d536f0e4aa3eb1979f4d5220059c7ea88b22b1b8438dcd6",
+      "privateKey": "f48f3960845ed0321280bcf53323e5828c5cb484e5602a4f7adff137eac66108",
+      "calculatedValue": 0.02208988268605211,
+      "weight": 13
+    },
+    {
+      "index": 38,
+      "publicKey": "04094fa565676ba476996d133cc13e22dc83994faf4aa8b284445b961c22dd1c5802e01d0cb89ab9dfa77d9ed1a8b8ea10da31d095b6cb30b8061448a16fb9255f",
+      "privateKey": "549ade62b6945c3289a6f02e9e3ce2056f6074bb3f2e590e6355daa4d0ffe418",
+      "calculatedValue": 0.021870084680864512,
+      "weight": 14
+    },
+    {
+      "index": 37,
+      "publicKey": "04bdac58c77ea8bcdf0b47f06816a70648577c45c6abd1342ca48eaa14fc9337555200416b9540556d5fadb91ae4ef819f76260e5cf9f99d738b8982e9d9a49a85",
+      "privateKey": "cd3e6e1479bc00a89bfeddcb28df26eef9c75c00275fb39060bd085e068e1f0a",
+      "calculatedValue": 0.02165247370237014,
+      "weight": 15
+    },
+    {
+      "index": 36,
+      "publicKey": "046cd655d9902ca4ddffe4bdbfdeb7bf6d7f0169227c27f453e40f092df54a992ad975b51d9e9cbecb91bb7a3dc83c1235304956161ed6e8b8eb54c5d917311356",
+      "privateKey": "8a5973d2e8fec54159040ed62b61cb4c4844c360f05142482c2a80da72360db3",
+      "calculatedValue": 0.021437027989289793,
+      "weight": 16
+    },
+    {
+      "index": 35,
+      "publicKey": "0473a5146b0c97d51aa47fee48b3c1718de44ab193a2fa33b16938c0d0f42dd8951d2f5860eded0ddd5595c87e4b85174a4b124eb506b98786ff76148d180fd169",
+      "privateKey": "bb59a735ad86159133b2440eda6d762dca26f4a562a3a41cf8bf917185c95185",
+      "calculatedValue": 0.02122372599687262,
+      "weight": 17
+    },
+    {
+      "index": 34,
+      "publicKey": "04ca411cd207834ba721c97204d7b9d78a4836864a0ff5a0a6408912d8e2cd2b7ed6c134e9ba45bd3fcb8996033ffca7d3d504485315f40b6b240390f014f0549a",
+      "privateKey": "ae4a3334cf3be679de680b7926b366799259d6511ea20f756f9b05839db66a2a",
+      "calculatedValue": 0.021012546394741635,
+      "weight": 18
+    },
+    {
+      "index": 33,
+      "publicKey": "04bbf55b93183e532b455e842732ca602d7cb485678fb8eae4cfada764abedc28cb0cf1353c2632561345519fbdbd7afed685ed81af52b09cdac63ba07fea15fe9",
+      "privateKey": "99ad439e5dc7ea8dd1e1ab8f8f1a21cbd932ff4e9c1b8c13dd21c18080e2b215",
+      "calculatedValue": 0.020803468064760636,
+      "weight": 19
+    },
+    {
+      "index": 32,
+      "publicKey": "04d41b0c3a2c8d085413df47c448f308aed30083ca2f8a03fdf6647c2f252f8eccad81c0c9e86ac363dd806b7459e16c44ae2c73c9f904d00d8abc5898f13d603c",
+      "privateKey": "2be7fe10dc407d43abd90be6659109745e5dbf96bc624154a9085130814eaaaf",
+      "calculatedValue": 0.020596470098922397,
+      "weight": 20
+    },
+    {
+      "index": 31,
+      "publicKey": "04bdb5385f6b28b9dbdf1cb5ea08850896e07e6e949a7ea03bd67bea67a9283f09ddd2e0a3fc2b4e35e8ea6bf61ac98bb7c7bd29a9a1572b01f1127b1d91d59ed1",
+      "privateKey": "8293ff17b454e99cbb6c837120821b22a7e2398f2564cb45f6ff503ff9dae103",
+      "calculatedValue": 0.020391531797257827,
+      "weight": 21
+    },
+    {
+      "index": 30,
+      "publicKey": "044aa6142d629e1ab0dc37db5bf49ecb7ebdc645839bf143415fd7ce6dbbec1ead8fe86459fe3d5ac1219baf34031c50bbebac2127b883c9d8ab9a0293be9b744a",
+      "privateKey": "4682a5b67c8d04e8b204152dce43d1f74b8ebfc376395823778193e19bd68d3d",
+      "calculatedValue": 0.020188632665765986,
+      "weight": 22
+    },
+    {
+      "index": 29,
+      "publicKey": "04e86094e89efa2ff4b3694aa0f9de3faff3bc0988df81f0fe19034c199d989f95bb8f5279414375bf728d4cd0f5a6790ddf23d45340a7e964a9e9d3aa981f2f14",
+      "privateKey": "c944d2c691e25633208cc745da7b649b1e5407f68cb2a48b048fa2a2664efa72",
+      "calculatedValue": 0.019987752414364637,
+      "weight": 23
+    },
+    {
+      "index": 28,
+      "publicKey": "0454529d8954e8229e32f46fc43997a0eae61fe5369bc020b54b140c241f8487ad5a265c9a0f59fcb794ce3fd8ef3dc125dc0816f77e9358d99e3987b247b5712e",
+      "privateKey": "35619ef4ccc1e7ec8986302f68ac55c4a461be5c6f6e8aeeaec7e8e4ca5898f8",
+      "calculatedValue": 0.019788870954861242,
+      "weight": 24
+    },
+    {
+      "index": 27,
+      "publicKey": "0439188c97b401e6aad447ed8f3e8e54ecb7ed25b7b22663e4a1bb906877dd120e268db4226c62af0d5a34892aa595c2a5ab29c94135ecd3a4111087a601be1780",
+      "privateKey": "e36a9f70f2695d4fc7e825355c72ed8a181705dc8848d5ccbfb22875b8cc4264",
+      "calculatedValue": 0.019591968398944115,
+      "weight": 25
+    },
+    {
+      "index": 26,
+      "publicKey": "0409c4e8a000f0e4178715e7f1d4e53ef405962ba2ca52e8576cd93e2d8c08ccfdd5166bdaecc37a97f8c1ab2ee114b21162de7286ad8105c345793bb092aa307f",
+      "privateKey": "73b71d2ce4dee890e98e66ee4b55bf5b92747e496dbd0966f84e46012eb42981",
+      "calculatedValue": 0.019397025056193572,
+      "weight": 26
+    },
+    {
+      "index": 25,
+      "publicKey": "049e2657367b14fa950e1f7d3cf9c002c3c3e2ff8affe13074e1a2972a81eef5d2b6178f0b9b924ae12eaf1891ffc9bb251c27e3a66a1819752f51e9df6a8dcced",
+      "privateKey": "9daa52a8ac8bdc91da0779314bd0e1410bd30db9f3157d9f7b0efe1c3a55a09f",
+      "calculatedValue": 0.019204021432112896,
+      "weight": 27
+    },
+    {
+      "index": 24,
+      "publicKey": "0401e4b03afd89cecad1324fd196ecb64026a9c729700e42a2dc730fe76597db7d309514811d3928ee33fc1a68afdc5bc2cc793a93bbdd03062fe9bba2b781fef1",
+      "privateKey": "75cd9e07dbadbf1b65aeec19f8f661c91c79a12e33f13e2fce12d500d2c09722",
+      "calculatedValue": 0.019012938226178833,
+      "weight": 28
+    },
+    {
+      "index": 23,
+      "publicKey": "041b1b9fc3e8b27fd4d1233aac23145c038f462ef3c595cc20de1ecf3423557e45ed89bad29b94360795d52d44e90cf915f830fb9c34810bc6a2ec52b39c2ec27f",
+      "privateKey": "6abccee7b355a09b7425999da04ce9d663d259bea2551bbca4c10b80b128045a",
+      "calculatedValue": 0.018823756329911553,
+      "weight": 29
+    },
+    {
+      "index": 22,
+      "publicKey": "04092df4063150b0290b8192bab242eff313b960e1dd48272a658b51d048f0c7eb2361369b1100f4dc4fa11c2c2291edcf8e853e960d296a9c6437a932f2292a30",
+      "privateKey": "4c5ba9c6c35ac28a45b4eacced4dd90751e17234ebb940a6ead3e6648db919c8",
+      "calculatedValue": 0.018636456824963784,
+      "weight": 30
+    },
+    {
+      "index": 21,
+      "publicKey": "04d8d4f6d2d7d98bba2586adea8f99b49076d1d6b94037072573c8b4361e6d3786cfe650cb38015da432b1e207b247c6de4025242a261bb77c06975cf04fe0a36d",
+      "privateKey": "d52b9a3014387d7e57cc7c4f942664f0b68764a792ebcd67ec93bfc5058b9fb9",
+      "calculatedValue": 0.01845102098122894,
+      "weight": 31
+    },
+    {
+      "index": 20,
+      "publicKey": "046b8442c31f715a94dd4a421152daf2230ae44a2c2e4adb51b52412bc65fbbae1431d9d3d65abe89b251ecc602d1da9e8b502b0806aa169cb2d264b3507e125db",
+      "privateKey": "86aa2d0e64f7a3c503a27cd4ab2e27758292d4f99a97ee71190c0a201f6b86cb",
+      "calculatedValue": 0.018267430254968124,
+      "weight": 32
+    },
+    {
+      "index": 19,
+      "publicKey": "046edc6eab28c80b9906eccd69a71ccb5f8cfcb7031fee6a663e24cb47c1b0dd35eb39aa73d7ce2fba59f18129598254b1780c7bb9ed62d3935bf876baa80c0279",
+      "privateKey": "1ca048e152a48fa64defe6866a11cdb82a882a7b2e0b0c18bbfc2353d1f571a9",
+      "calculatedValue": 0.018085666286955713,
+      "weight": 33
+    },
+    {
+      "index": 18,
+      "publicKey": "0426d08ab588c8bfb46ee0824a2b694d54530e0962286fb95cec654bedb9ca38c5391c89b0a6393c0347bea01a409803377a834fa868b559ed15112b599c42fae3",
+      "privateKey": "aad58faff720ecb9d996d7f59838f99aae2c024c2b81b8c178bf85058dba48dc",
+      "calculatedValue": 0.01790571090064344,
+      "weight": 34
+    },
+    {
+      "index": 17,
+      "publicKey": "04433bc53e9161319686fc8a3767c32978ed4655b0a374e409b3249358721b93c663b8598d8b214e722befb9f8904aa8d576a1f477626faca52ee10108b137e425",
+      "privateKey": "37594a5dc12397dc965c039e6b60a4c77cb1528c62e5083c2441c733dec16a78",
+      "calculatedValue": 0.017727546100342703,
+      "weight": 35
+    },
+    {
+      "index": 16,
+      "publicKey": "04ebcbfefd8df407eb279e94ecec2c3548bb3cf6cfd04144be08eb420d70fc726b29dac98fac2936a2cacf91f882690e83b1801b5a1a022bc7bfc53c7fe8f278f4",
+      "privateKey": "a8777e7193a5a44c6cf6dbd838801f3b752c089d6dec491ff482f5617fb0d812",
+      "calculatedValue": 0.017551154069425003,
+      "weight": 36
+    },
+    {
+      "index": 15,
+      "publicKey": "04350d471982fa0dbbf6368ff4fbb113fa8a9b38a54b244c921bf9a1adcae3d4576007d8439e72c66515256f192dfdd45ab57da83e3fcaa217da94b82d9396de38",
+      "privateKey": "c476cffaec5ea446f65d3088cd040ca5c62762748488f2d8684963974d76dd1d",
+      "calculatedValue": 0.01737651716854026,
+      "weight": 37
+    },
+    {
+      "index": 14,
+      "publicKey": "04f698a61d1557a7ac7c3af1378ab5cac037620ea3ce57a2d5d5609b2de05d52be99fb7e7ef350f520c98533a2f3f7b79827608151dd400e74c9c9a21c8e3b9e63",
+      "privateKey": "25bdca74286ffe24e9380e2763f1d7bc794cd124b410e0d864373a8254f515ef",
+      "calculatedValue": 0.01720361793385285,
+      "weight": 38
+    },
+    {
+      "index": 13,
+      "publicKey": "04bb4b8aebb952a884febba282c3f46bfa576cfc910be2bfcbaa320284d5c85648fac02fdca01e031d2348b31245f18a9236d9a788b1fb6c1ebdacc8d3809373ff",
+      "privateKey": "d68b90c08a12b5fcfe8fbbe7e6ed9ef926cfb3b5229be991caa00eb4880c0020",
+      "calculatedValue": 0.017032439075295218,
+      "weight": 39
+    },
+    {
+      "index": 12,
+      "publicKey": "045c72a306b1477e1cb528c2ec56e423964fc54bce91ea4921637fa5a54c154169a7816de7110bd1ebac75f489b18666b8d11e64726084096febdf29efad5a3c1b",
+      "privateKey": "710f2c04e69a372fd774cfb67e48698859bec8d926bf6c7a36e8996d046b9d5e",
+      "calculatedValue": 0.016862963474838868,
+      "weight": 40
+    },
+    {
+      "index": 11,
+      "publicKey": "0407f99d5c2a9bdf99149ccc8417a9394d471f078fc52ea227f059db1ac9124bca106b39269992ac859aea3685b2104a4173664851c4468d560f76e1c4fb3f89a6",
+      "privateKey": "f39b4326db6dba46b0819e1b41b59799b471288c73efeed10f74ae26f46456eb",
+      "calculatedValue": 0.016695174184782516,
+      "weight": 41
+    },
+    {
+      "index": 10,
+      "publicKey": "049344b9cd8dc8cefb47f6d167ecf0c7183f4a8ce94478730ba80a14834473f0d582b6b1633f318841d4edd2c2d33e660eadd2547fc5d22f4a4535a09397df445f",
+      "privateKey": "e0703c8aff733647001c5822945dc252bbeaf515a15dae9101f10584fcfcba3b",
+      "calculatedValue": 0.01652905442605733,
+      "weight": 42
+    },
+    {
+      "index": 9,
+      "publicKey": "0400cd439f64ba891270275884558625c27fcc8ed2e0fb62d316cde3fb283ade4da976e2086a616a3accbc756d5cf9ab00423f8cc2ecefb9c28e1fc8c9bda0bef1",
+      "privateKey": "4bb9de45f59861310b8a0511ad743f5be70aa14efcfd9977f5c4f764b2485de3",
+      "calculatedValue": 0.01636458758654901,
+      "weight": 43
+    },
+    {
+      "index": 8,
+      "publicKey": "0446d1ad9767bb4456be3af950e43cde7404848eb17291ef69361a47711c8441b160e22b4c5ba63ed8cdb35200cdebd45445d2d6b996298d7036a3d087b0270050",
+      "privateKey": "66a9656a52aee9c2bcfa762d2a24c4948548980554c50d03d0f96494548f2736",
+      "calculatedValue": 0.01620175721943655,
+      "weight": 44
+    },
+    {
+      "index": 7,
+      "publicKey": "04b893d05f6cceab6b7d7ad166828e686b253b3a579d842fbe654e7681bda51e8039badb7053f75b978a7de54a71936becb6f4c12cb3391ced695689de1df19b53",
+      "privateKey": "7b83b49c7300d81941f8cbb59fecdd8bf1eca25afcaf4b3d19041e3d423c02d5",
+      "calculatedValue": 0.016040547041547535,
+      "weight": 45
+    },
+    {
+      "index": 6,
+      "publicKey": "043f3084bc9ec34d1282f8b12ff7a69087469dc2f80a0c102c946c0c37433d9733bfaca707707b18af134cdb6df2e593ca09bc320c1c951decdb55c295a198e7ac",
+      "privateKey": "10b05ca5be210b935892a5fa7f396f1a82ea50beae5a1b64a67f8668a4a446fb",
+      "calculatedValue": 0.01588094093172985,
+      "weight": 46
+    },
+    {
+      "index": 5,
+      "publicKey": "04d9e26571f30227895321a20b36cf6bae802d3519d9c30812849c174054ad415c5331a004f91e3d64759e793350eb38bf32cb43e8b71bba23237160ea397cf3de",
+      "privateKey": "237830760159fa682eee3760474020cd10812d1a4582e286728cbd58789f5a03",
+      "calculatedValue": 0.015722922929239495,
+      "weight": 47
+    },
+    {
+      "index": 4,
+      "publicKey": "0404f5708e4d36063dd15a7df822d0f5a15434c323c4fbdb8cc4a6bc4d3c380e95a5ab00ac31bc86cceb6fa2d8392a164ce29e075bcf2c6605b69a2132b1330082",
+      "privateKey": "eafad6eb4c49523380e49f8a5e15b9eade4f15ddc52e7abd2f32fd7d709a5a54",
+      "calculatedValue": 0.015566477232144544,
+      "weight": 48
+    },
+    {
+      "index": 3,
+      "publicKey": "04132b482a2abe40510caea9a3a2538fd9e7c754cc51286dc733961b3320094eb1f6bca6dfdae372d7e4c37a297d6980865ce8e1c692143ca3e9e23070b483983b",
+      "privateKey": "1236edc5f0cb5c99ef2c9a127eec6661df434538728dd6a4ec9cc5aa7a3ce805",
+      "calculatedValue": 0.015411588195744915,
+      "weight": 49
+    },
+    {
+      "index": 2,
+      "publicKey": "0449cbbf55efb07e40b9cba8e93352fb50e4bc4a4dbd23240d24f7260dc3e5350faa36f862bf6ca6e4fcb7af30440f1e3fde5e3505f13bfba8fb52490d2bd21f70",
+      "privateKey": "4fe7491aa16cf78738eaaa1edeef6f5fbad0f6a9feb4e02cf8d8ceb6500d1922",
+      "calculatedValue": 0.015258240331007894,
+      "weight": 50
+    },
+    {
+      "index": 1,
+      "publicKey": "04896f0d6a65d847159f86c9b3c7a7d2f496b1b86244c9b289ab457ac6da2bc959c40be04619c99fe9e4f766a56737070a5460c7413a042c64c2b5b71851f0f9f4",
+      "privateKey": "1b0dcf7eb2e0bcbb93fed2376d117a1c46eb7f6c8172f9d584974383fbddc551",
+      "calculatedValue": 0.015106418303019217,
+      "weight": 51
+    }
+  ],
+  "groupB": [
+    {
+      "index": 52,
+      "publicKey": "04b8b43974a300d20598ab3ea765e79c0616eb09bdb15bfb1bbd14526b3523f03b8b35ae202e34d1b74f41ff0f67f299a5d790e5622eaea129582736158c24e141",
+      "privateKey": "ef8e35813d928ed8a1b83b082d86968a8111966b9f1369f74428cdbb5c378bd9",
+      "calculatedValue": 0.1985327397206032,
+      "weight": 1
+    },
+    {
+      "index": 53,
+      "publicKey": "042ef739400f4bcae81c4de83391efd9c6c9f0d7e296cc0662e427dd39d028bd99ddb10448f7ac33e022e892af391b294bc1384a80a23a0905c64ca9061490485f",
+      "privateKey": "7f8decca09762319bc612beb3f597e9d8f62ba1e3bbf6a3465d5aa62ede6860b",
+      "calculatedValue": 0.19827795135597165,
+      "weight": 2
+    },
+    {
+      "index": 54,
+      "publicKey": "0498859b2f1e58183288a63fe9a19906a637fb32f846efd0a56019aa09f5276a0bbccf0b4135da1c252cdf5be5b6050645d192631580aef7457b0b7b2047a05632",
+      "privateKey": "88096d7b8918ac74c8231e452baec1c294b8af119f05b934cdca1a7daa0fe2bc",
+      "calculatedValue": 0.19802544836217253,
+      "weight": 3
+    },
+    {
+      "index": 55,
+      "publicKey": "046732d899acb017ef387c5357e19404afced87d946e06c41fb2eed9cbd1c7073a6d7704d150e2967349bf4ca18afc6acfb9470d883987344cea603d8699a64fac",
+      "privateKey": "4393f2d510fe3b68dc9ab1ff0945de95e3e2e34326e05de88f685ce3ec589b86",
+      "calculatedValue": 0.1977751949761298,
+      "weight": 4
+    },
+    {
+      "index": 56,
+      "publicKey": "04703bf5621e32905fbca3b4de571f804a42f539c0405290270289ec27d8453314f734796f96030649418259e2fca9946fbcc0deda0a1fafae833f42ca4e06d759",
+      "privateKey": "5ebb803d3358c790b4cae1b90e3b96c59915b528bd33213cbcfcf01d087c36e8",
+      "calculatedValue": 0.19752715622645642,
+      "weight": 5
+    },
+    {
+      "index": 57,
+      "publicKey": "0419d1d3498414ffa84d422c48055258180046712e80753aeb1296b70bcc4ede62cb90a44c6e4424d4551d3d7ea104bbe2a60aff97faef1b8ceb981f90f20b56a2",
+      "privateKey": "a095fb5eac73ff8230e8a43f7131f3a550bdd8e0ea7d727c521516b5881d6cc6",
+      "calculatedValue": 0.19728129791089558,
+      "weight": 6
+    },
+    {
+      "index": 58,
+      "publicKey": "042c8b4157bd8a2552088859b09cbb2fa340a76f5446e73817fcce8aefec1e1ba132d4db200a0a17c3ed9d8941ad1363ada30c1d709a031d99da02371d921df870",
+      "privateKey": "6719360f298e32b9e56f3153b16502e0026b524e2205b607ff1ddd8536a59918",
+      "calculatedValue": 0.1970375865745452,
+      "weight": 7
+    },
+    {
+      "index": 59,
+      "publicKey": "046200c1c30dbf5357bfe8ec5634dd0fe2684e9ad1238ee3d4bd2b4df5f0233f101108a6120d9aeadb7e209fb23b703eae08425047766b70e6f47d1d22fc85dc7c",
+      "privateKey": "39c7dbb29efc1efb46e82e96545788d2ec12e44d051418b401e65efd3f0d387f",
+      "calculatedValue": 0.19679598948883448,
+      "weight": 8
+    },
+    {
+      "index": 60,
+      "publicKey": "04b5462e7ba0e1d8fa6f3de215de482eac2ccca3c86a3949723df194bdeaf517a6897ca8630c9208b5a0af14c5807990e760ffb0de63f95fb936bf2835471ab4ea",
+      "privateKey": "3157ed7afefe33a4f6dd8b3e9904037b43214d3c0d2478f166d1aa71f0da239f",
+      "calculatedValue": 0.1965564746312216,
+      "weight": 9
+    },
+    {
+      "index": 61,
+      "publicKey": "04cdec5a94cf10e10baf2d3040d1f4a8608e4742bb8e62ed7391251cd15b22d4296a2595ccc992e367dc1abe628d7b9f649f3d753b2b9d7cab4ded3afa9138ffce",
+      "privateKey": "e6d83e5c9b36b4cd285937b0144850e473db5714e3a843d7186be508ad3f5677",
+      "calculatedValue": 0.19631901066558333,
+      "weight": 10
+    },
+    {
+      "index": 62,
+      "publicKey": "046e6cf6654c95e10efb66fa15c84df19c9180f4d8c376d418b8f6caeab2be3f5fd53451b49b95b18231e865e9927b994f61cc286439edbd4184c1aac4045a861e",
+      "privateKey": "49cb6c3e253f52e12caabd04fdfd225d90ff7e5931ce741b99fe0796397c2c7b",
+      "calculatedValue": 0.19608356692326917,
+      "weight": 11
+    },
+    {
+      "index": 63,
+      "publicKey": "0489dc6b855b80911610cc39154bc5417d1a31cdb493d1da4a34bf073188bdf36637707490d8a447af75943cd39622b15e59e1a059a4c861326314b0770150cd7e",
+      "privateKey": "ed121a06f76b3636d7035ac3b04d0c6e5521054f82dfce1e4388a07ab91b048f",
+      "calculatedValue": 0.19585011338479313,
+      "weight": 12
+    },
+    {
+      "index": 64,
+      "publicKey": "04b9a6408ff5061f4ea010e18052eff408e1f2b0fffd09c05997527f7b38474ea3af6d65a22c08234defe31e37c43228b34a16e33babe2f0907a1e14eeac2f8655",
+      "privateKey": "fa3616e1b55e21d26b662fd315bd4a547d6d2ad9c007bf8ad4b8d80fa5edabf0",
+      "calculatedValue": 0.1956186206621379,
+      "weight": 13
+    },
+    {
+      "index": 65,
+      "publicKey": "0445f5afbc8d1f830f6c782e59a76154b603444e6e590badae72fc37bb87e988c63037a514bb00fdc3796d367c95f56aad246a8a96d225a567583efb492d223285",
+      "privateKey": "63ef44a96d9fc6b99bcc4d43928f5a7f59a30fa591903fbc25f723084215aaa7",
+      "calculatedValue": 0.19538905998164785,
+      "weight": 14
+    },
+    {
+      "index": 66,
+      "publicKey": "0488a9063e8deb2d06fa60db949797fec53d43d5e55d62112c9b37be6643d1143600b7980fab9903611aba1c0b8ced203aeaac66415cb31a3ca3b92d2c4e9f86a7",
+      "privateKey": "4d389cdfdd385bcc8ce664eca8618e2e0c678863ea65d22ce7e5b1dd091dc3a3",
+      "calculatedValue": 0.19516140316748692,
+      "weight": 15
+    },
+    {
+      "index": 67,
+      "publicKey": "04b94c2e17e096ddb8b77f171fa936a89351a68d288b7c1ef143ad9c3f047b1d45e770dfef660e279ceac7ce9726a75ae397fc4bec38c168e62038a7403b129a9c",
+      "privateKey": "56671860e8816b22702b2be33938d24ce7cf88779aea35c335959d653b5d8443",
+      "calculatedValue": 0.19493562262564004,
+      "weight": 16
+    },
+    {
+      "index": 68,
+      "publicKey": "044de291c26d3f3287926085b9239eb77b13cc303660898faab4c7a91db2c13ec3877bf73087aa24db52f0587d77db61636b48ae443c8c93009be583ad0278bd06",
+      "privateKey": "ab82f228717d74fb4195675037e1be72f1244c5e2d223d25e396ad54b3447469",
+      "calculatedValue": 0.19471169132843705,
+      "weight": 17
+    },
+    {
+      "index": 69,
+      "publicKey": "04ed9f3979c27b63969458d80a74034d7a56d594aa9ed7ee5974603d331c1d1bbf6fe6b850e9a3e035f59b2732633d5194ed81d111b69470e663749a1c9ed22634",
+      "privateKey": "ca8ee75c2abb0d061e7f38bd678d1b406059a49a647b6cb9f1cd9a6bb96b49c9",
+      "calculatedValue": 0.19448958279957862,
+      "weight": 18
+    },
+    {
+      "index": 70,
+      "publicKey": "0417318d030107b1d2e02fa2e921ff6fb2988c58663bd64918519e5507196be8d7a137bb913bb886bc683fd512ae59a25d9b0433b32c02e4b6fa839cf89453f009",
+      "privateKey": "bd0b4a72f0de375d3fafb8f802c2385224b9b8637859935ea7503295cea8b249",
+      "calculatedValue": 0.1942692710996454,
+      "weight": 19
+    },
+    {
+      "index": 71,
+      "publicKey": "04074693e0896b26740152b41c670069c7526c247338c3b79ea753a0ee664a04e5313873099fb8e1c5fbd4aca0572f3496f0fb15c86b621709af168d2d864a2ace",
+      "privateKey": "cbc1fcebf0d7782ed5e1764888ece6ed6febbe29ebaa383f72be1926bb6e9368",
+      "calculatedValue": 0.19405073081207164,
+      "weight": 20
+    },
+    {
+      "index": 72,
+      "publicKey": "045a3515467394ee697a496d5941192bff44091496705b1140db6e1aab3779d93879581cfebbe6c61f53b36682098dd25011af6eca8765752f1dc81314d2f9087b",
+      "privateKey": "b658cdbb3c04ec695ab0225f18625c82ebf86d25c7f6c4514d3be47e36f45d0d",
+      "calculatedValue": 0.19383393702956642,
+      "weight": 21
+    },
+    {
+      "index": 73,
+      "publicKey": "040ab3252d41a8e1c57eee094a0e33be706891100c94a9ab1e80350651ba5daa5ce3c1462aef1301e6576d604d903b23e7bc670997d1018a65bb67de4a9f4ab11e",
+      "privateKey": "62e3b59a48ecfd4909a691011daee90571e358afe4fe674307ce87e405ff46e2",
+      "calculatedValue": 0.19361886534096467,
+      "weight": 22
+    },
+    {
+      "index": 74,
+      "publicKey": "049ce30906dbb9fb4678bddf81893a450a0c04b4edcdc878b266c9fbf7be7caf831bafcee61a057ab692be9c3f5cfd109bfca5880bd509e5f8566a32311686099f",
+      "privateKey": "430e9dff9a599972fa6fdd43ad0516464f9451e1bc07d09468b8e5d59c1788f7",
+      "calculatedValue": 0.19340549181849295,
+      "weight": 23
+    },
+    {
+      "index": 75,
+      "publicKey": "0465cc2a361dbf498231cbfad6a490b9d1c2d1ccf1732ad8d0ede89698f3e7f25a23df6ebe7fa064ee95679c8c5fd485c7e187ac5ee7c8fc9b4d45fc915452eaaf",
+      "privateKey": "1cc80cdb5fccefead4d73fcfa5b164dbdac2c859f21749331481ec4fa8c38ea5",
+      "calculatedValue": 0.19319379300543385,
+      "weight": 24
+    },
+    {
+      "index": 76,
+      "publicKey": "04878aaca34d0e07b423182adda560b86779e0ffd793a48ccd16060edfeef5295f74de094af439762d7a6b43b0ed0e97cbee4c6c60980e54b62d853158904b7371",
+      "privateKey": "4f7e7fcedde2c1f8a71d5456193ef5dcb227c7b467c47e97eaef824ccb281d27",
+      "calculatedValue": 0.1929837459041747,
+      "weight": 25
+    },
+    {
+      "index": 77,
+      "publicKey": "043d89e3b4fb14a49985fe518dc89064e478a87193284d1005f3d01f44a88f5fda3050b5c7a805d740971b9041b163363533bb96600ab4c6abd2720b41fb9c2db0",
+      "privateKey": "29cf887452ef876cf6e18bc6609ac6c8bdcc6e76fe6d54caefda6f17a1fbfd42",
+      "calculatedValue": 0.19277532796462654,
+      "weight": 26
+    },
+    {
+      "index": 78,
+      "publicKey": "04b6a0b389d50129f019c121e38fb0529427755b4a74924e0581f7ae299d657df64cd95b814dfe2181fd6adac0e97eccc4241d4bde50998ab027980d12b071390c",
+      "privateKey": "bcb468f31df2a502435940e605ed184147e6e911e562de028cbc7fe38619784f",
+      "calculatedValue": 0.19256851707299927,
+      "weight": 27
+    },
+    {
+      "index": 79,
+      "publicKey": "04fd55380e64643ba7dd7de52b5186344bf54c5b7318d7267bc5ae07af14843a3eeaa9e6c62bb34c628fac042a5df8001ffcb506dc1d33aaffa6a4cd9fe53091c8",
+      "privateKey": "457daf179b2cdb5b3ee3dbbb863e2c2fcb226a539f8f536f670a3302155881aa",
+      "calculatedValue": 0.1923632915409209,
+      "weight": 28
+    },
+    {
+      "index": 80,
+      "publicKey": "0472331e10c36b0ccd7f1421518d1f6e6a35ccdd8ccc87eb769282c6a249f2299d71b4f1775dcd03cc2ccf62bd842dad6c8a622b1f8dfde54e977ff9453b8ccf28",
+      "privateKey": "4742dc5a02240974eba402c9c3608b0bcb360d6a25de6aebfb52a0af834fc163",
+      "calculatedValue": 0.1921596300948879,
+      "weight": 29
+    }
+  ],
+  "groupC": [
+    {
+      "index": 81,
+      "publicKey": "049b35184f0a8b74028401250d69e5adc2e5067155f5770a4f97537d61886c45c9049c80651807bca6be1a609f75dcbad73c768a2b7558e969d13f0cfccf4804fd",
+      "privateKey": "579b28b45bcea5f877449673fab5cd1aec3b52e4538c5820b550d9b30c6ead26",
+      "calculatedValue": 0,
+      "position": 45.71401218180837,
+      "weight": 1
+    },
+    {
+      "index": 82,
+      "publicKey": "04cda1f69a4438dd263abd8b314d9551f2e32ee988edfb6655b711f7340f69dccbc34472d3c994abbd53fc1a278931f6431fba36803c7b6481f84d93712b808e00",
+      "privateKey": "99780f0491a59c9746e969492aafcd3b9b33ecbdcecb2223242c92e8007164f7",
+      "calculatedValue": 0,
+      "position": 85.31061258733672,
+      "weight": 2
+    },
+    {
+      "index": 83,
+      "publicKey": "0464d3e968b8d05c7c25f480171a8aef501007e74ebfa7b5ab2a2551afdf3e55e5b5d6025ff9ea21a0bd35a1a0cffb1415dc45306a25e17fe249e59ca8900b500e",
+      "privateKey": "1a85a5d1a258d05bf7b9550ce4f7fafe281a9745853a925705b27094269d0bb7",
+      "calculatedValue": 0,
+      "position": 20.00131011350221,
+      "weight": 3
+    },
+    {
+      "index": 84,
+      "publicKey": "04608708dbe8b11c84758095edce6a73f6a4806e6397ffd4f151cb37587c5c27b7cc328579b076a5aa5eb6c776c63ea8c4ae92b0b4d05ea65f6cfcbb741afea15c",
+      "privateKey": "1ad6dea20f1fd1993366b54924a43dd58c676759142835d098e4befdf0a468c",
+      "calculatedValue": 0,
+      "position": 58.51923684363525,
+      "weight": 4
+    },
+    {
+      "index": 85,
+      "publicKey": "04bc2a2b88eb6f85b01d2347c73e5a8588177ffdd887a03c953b46eca97a10e1056891646ea23f04097816c6d0c09798c98902c376dd81e905e7b8332c319ec682",
+      "privateKey": "87b6805cd58784e896d91c0816aa05901b6409aee4cecbd3bb79517a26ac5cf8",
+      "calculatedValue": 0,
+      "position": 78.32758813225263,
+      "weight": 5
+    },
+    {
+      "index": 86,
+      "publicKey": "040dfcd6db073bdd5477cecc1b1ad23e5d53a772fb8b575ee68b4a09d74adc5edf889d02e2f3d1ba71130250fe6d7f12d5916e629e4c15b558a097317101d07f39",
+      "privateKey": "651e0ced19ed9393d5650674d03da4d37813303c3c56350c15445446a1739200",
+      "calculatedValue": 0,
+      "position": 40.90382379474669,
+      "weight": 6
+    },
+    {
+      "index": 87,
+      "publicKey": "04635e2d68f120951f547c3b08d11dab34c1f3392389cefc34fd32266e7779c07712a17b4964db2acb2b18b9a92cd603706b0ebbf11eab6b9ce6110706b3ea72b6",
+      "privateKey": "b169932e8c10edf8bab3813a004dbecdb03e564b4d441e242c68e5edab73a171",
+      "calculatedValue": 0,
+      "position": 84.44197105591743,
+      "weight": 7
+    },
+    {
+      "index": 88,
+      "publicKey": "0438c73f78985e8c3b76e75ce189e6a77e964645139e41372eac1f474f04a54a7176c4a5228d89b2d7d0bea01094adc61763f66b606925179ebcdb285c05b68057",
+      "privateKey": "4733036d09644a00525842962cb3ed0876beda97facfba7fb8f44a9ba598f5a8",
+      "calculatedValue": 0,
+      "position": 22.820311412641004,
+      "weight": 8
+    },
+    {
+      "index": 89,
+      "publicKey": "048101600b0511dbf301089ecea441d3af9285fca175346540998cf1f6463771451bc50045076d297862cfdd452197c7fa8515afe7872757a3f8d98b93e228a5a3",
+      "privateKey": "70d6aa3fa5d0382a1ed4f0593659d446cf9b17679e5d15d52a180d52696b2ec1",
+      "calculatedValue": 0,
+      "position": 64.11600517501724,
+      "weight": 9
+    },
+    {
+      "index": 90,
+      "publicKey": "04292203e33bf5e4df8cb15ed19610c78bdc6710170e32ce15f30ddf735c845519af69b933e11d222defa06da2c9a62e930864587a8bc67d920790e0400b9fe30b",
+      "privateKey": "415a60c808371abd576f5c489046c29254c7292ba39cb2e921afac8d2b06c4d",
+      "calculatedValue": 0,
+      "position": 71.03136063147247,
+      "weight": 10
+    },
+    {
+      "index": 91,
+      "publicKey": "04abfd7e07afc6e9ab43283634960584a084ab85996ce269ed5c450620679ee1c32d89bbd6d799217a78455c819cf1d06a3116c9c1d9ee6d1ce531c39d2c3aa0cf",
+      "privateKey": "a17876a444edd2c94dcfbd8707117bb694404665ac5a147c465c9747e5528fe4",
+      "calculatedValue": 0,
+      "position": 58.450533968641395,
+      "weight": 11
+    }
+  ],
+  "groupD": [
+    {
+      "index": 92,
+      "publicKey": "046a8c078c31c03516ccf1b89b546ef1c3c6746afd517ecccd6d33b0e15dce816cb1da6e1b922ea059736bb772deca71cdf426f567e3434429768748c69d4530b8",
+      "privateKey": "2cdb3f75db4dc8cb6df95eeb5c3a658bc7b36c1c2e4772aec3cc22eb37120cf6",
+      "calculatedValue": 0.18992367876801303,
+      "weight": 1
+    },
+    {
+      "index": 93,
+      "publicKey": "0402ed41b1c1ccac9863e154ebc0f3c77956e4afd1ed1b354782dd9d9293d6d4ec5a7c849c3f9051307c76552ba8ece5dff7ea073c9506349f2cde3b7dd7e3eee9",
+      "privateKey": "cdaf38ee5e9c438bd571687613d74fb029026146a7b4d6aa356b75d9b33aab4d",
+      "calculatedValue": 0.18973792545112433,
+      "weight": 2
+    },
+    {
+      "index": 94,
+      "publicKey": "04cbe53619cae3344617fdd8c136ba711a0d165e3f9b2f283fa28ae5b90e008b4aefa3b3b704c9deb66940483f6b04616d771e36bedb9e97682764b67ff1c13706",
+      "privateKey": "764042326100e9ff7ea7bd59c11991a2e6063835fdcf31a3aab3137201a640db",
+      "calculatedValue": 0.1895534849461314,
+      "weight": 3
+    },
+    {
+      "index": 95,
+      "publicKey": "04167046535b59a94b3a709b7867e9b9a3efdb048419af6f304e6faacc59cc529093a0a6bd312cf2d31e6dcdc64b70fc7dd63bab0b3b75b240d2adbab156f6b4d7",
+      "privateKey": "42f88c1feaf61814d4f528b1193b4fd1e03e489bbad5f830241ad00a9597eaac",
+      "calculatedValue": 0.18937034098463407,
+      "weight": 4
+    },
+    {
+      "index": 96,
+      "publicKey": "045b79b57a60b615b5c9ded6fcb4b85cab7e00e46b4302d532a6f7eaf720c5a01e3c87406c3a3354404c4a1e691f8080339b424f68c17d864ed3bc1c7b5ccbe8d7",
+      "privateKey": "179651294bc004139db5bdc456340f244e1fb90711ed1988e755615d72fbc618",
+      "calculatedValue": 0.1891884775842746,
+      "weight": 5
+    },
+    {
+      "index": 97,
+      "publicKey": "04bae39157e855e249e512969c6cbe803d9a9503c7c48cd6798ec7c0b614158ba6613be874633531897a3744c7c8774db0c9e984f2d8f84a943c06359d5ac1f5e0",
+      "privateKey": "2a08d210b966e42c930cd319694d41ea1b0293807b10701089ba09a968497268",
+      "calculatedValue": 0.18900787904224903,
+      "weight": 6
+    },
+    {
+      "index": 98,
+      "publicKey": "04c2fe058b5ecc626d73e835847b75eabfa950af0c5226a039b753744b7ab07f0428e04586082fbf5b45bac49c9eb0e2b6503030fc3065d16a11028eaf6cb43f2e",
+      "privateKey": "3924bd7dcabab98b57750333761f34d2ab4316fc7c6666e6566b040e955d68e6",
+      "calculatedValue": 0.18882852992899812,
+      "weight": 7
+    },
+    {
+      "index": 99,
+      "publicKey": "04a5786751a14e442f0743ebfc828e2e422528bee7a278db14b20dccc8607409e9ed0a7eab8ab747ba3f30892d8371444fa66dc64ad8c967abcfbd98476ac4777c",
+      "privateKey": "2e3b9da5811bc7643a07d5d743348d84cefecb177a5677b25cb8f9a3f14733fc",
+      "calculatedValue": 0.1886504150820726,
+      "weight": 8
+    },
+    {
+      "index": 100,
+      "publicKey": "04e4dacc34380fab193b224436c33a8c010cab52ad7a81867ee57d5f6d0f0a936aaedb7f350fa952dcccfc7c4056b3d575e7087392b3face637c14c9eff34e29e1",
+      "privateKey": "2a1abf5394bfcadbfd11173ffd7b0d895a372647cf722ca5dc186dae0f24e639",
+      "calculatedValue": 0.1884735196001664,
+      "weight": 9
+    }
+  ]
+}
