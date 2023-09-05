@@ -53,7 +53,7 @@ const validatorData = require('./validator_addresses.json');
 const validators = [...validatorData.groupA, ...validatorData.groupB, ...validatorData.groupC, ...validatorData.groupD];
 
 // Simulate block mining
-const difficulty = 4; // Adjust the difficulty level
+const difficulty = 4; 
 for (let i = 1; i <= 100; i++) {
     const validator = validators[(i - 1) % validators.length];
     const newBlock = blockchain.mineBlock(i, blockchain.chain[i - 1].hash, Date.now(), `Block ${i} by Validator ${validator.index}`, difficulty, validator.privateKey);
