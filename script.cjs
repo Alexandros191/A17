@@ -13,6 +13,5 @@ document.getElementById("email").value = "your_sentinel_address_here";
 // Get the value of the input field
 const sentinelAddress = document.getElementById("email").value;
 
-// Now you can use the sentinelAddress variable
 console.log("Sentinel Address:", sentinelAddress);
-// You can perform other operations with the sentinelAddress value here
+
