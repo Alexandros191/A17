@@ -1,4 +1,4 @@
-# A17 BLOCKCHAIN
+# IN PROGRESS- WILL  BE COMPLETED 
 
 Enabling a streamlined and transparent exchange of information, A17 leverages blockchain technology to facilitate peer-to-peer data transfers.
 
