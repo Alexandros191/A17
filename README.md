@@ -1,4 +1,4 @@
-# IN PROGRESS- WILL  BE COMPLETED - TBC- TBC Coming Soon
+# IN PROGRESS- WILL  BE COMPLETED - TBC- TBC Coming Soon tbc
 
 Enabling a streamlined and transparent exchange of information, A17 leverages blockchain technology to facilitate peer-to-peer data transfers.
 
